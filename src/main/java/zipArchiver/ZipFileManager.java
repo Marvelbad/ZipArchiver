@@ -1,7 +1,8 @@
-package org.example;
+package zipArchiver;
 
 import java.nio.file.Path;
 
+//храним полный путь к архиву
 public class ZipFileManager {
     private Path zipFile;
 
@@ -10,5 +11,6 @@ public class ZipFileManager {
     }
 
     public void createZip(Path source) throws Exception {
+
     }
 }
